@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import classes from './calculator.module.css';
+import classes from './Calculator.module.css';
 
 class Calculate extends Component {
   constructor(props) {
