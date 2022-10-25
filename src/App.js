@@ -5,7 +5,7 @@ import classes from './components/calculator/Calculator.module.css';
 function App() {
   return (
     <div>
-      <Calculate className={classes.container} />
+      <Calculate className={classes.containers} />
     </div>
   );
 }
