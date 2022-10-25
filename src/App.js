@@ -1,6 +1,6 @@
 /* eslint-disable */
-import Calculate from './components/calculator/Calculator.js';
-import classes from './components/calculator/Calculator.module.css';
+import Calculate from './components/calculator/Calculate.js';
+import classes from './components/calculator/Calculate.module.css';
 
 function App() {
   return (
