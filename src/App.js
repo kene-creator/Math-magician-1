@@ -1,7 +1,11 @@
+/* eslint-disable */
+import Calculate from './components/calculator/calculator.js';
+import classes from './components/calculator/calculator.module.css';
+
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Calculate className={classes.container} />
     </div>
   );
 }
