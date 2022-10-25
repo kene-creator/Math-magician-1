@@ -1,0 +1,52 @@
+.containers {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 46rem;
+}
+
+.row1 {
+  display: flex;
+  height: 7rem;
+  align-items: center;
+  background-color: #858694;
+  padding: 1rem;
+  width: 100%;
+  justify-content: flex-end;
+  font-size: 3rem;
+  color: #fff;
+  padding-right: 2rem;
+}
+
+.row {
+  display: flex;
+  height: 6rem;
+  justify-content: space-between;
+}
+
+.btn {
+  color: #121212;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  border: solid 1px #85869451;
+}
+
+.btn_grey {
+  background-color: rgb(208, 208, 208);
+}
+
+.btn_orange {
+  background-color: #f5913e;
+}
+
+.btn_0 {
+  width: 50%;
+}
