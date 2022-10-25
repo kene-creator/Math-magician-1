@@ -20,7 +20,7 @@ class Calculate extends Component {
           </div>
           <div className={classes.row}>
             <div className={`${classes.btn} ${classes.btn_grey}`}>7</div>
-            <div className={`${classes.btn} ${classes.btn_grey}`}>8/-</div>
+            <div className={`${classes.btn} ${classes.btn_grey}`}>8</div>
             <div className={`${classes.btn} ${classes.btn_grey}`}>9</div>
             <div className={`${classes.btn} ${classes.btn_orange}`}>x</div>
           </div>
