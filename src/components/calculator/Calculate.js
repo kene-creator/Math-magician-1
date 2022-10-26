@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import classes from './Calculate.module.css';
 import calculate from '../../logic/calculate.js';
+import Button from '../UI/Button.js';
 
 class Calculate extends Component {
   constructor(props) {
@@ -21,128 +22,60 @@ class Calculate extends Component {
         <div className={classes.calculator}>
           <div className={classes.row1}>{next || total || operation || 0}</div>
           <div className={classes.row}>
-            <button
-              className={`${classes.btn} ${classes.btn_grey}`}
-              onClick={this.clickHandler}
-            >
-              AC
-            </button>
-            <button
-              className={`${classes.btn} ${classes.btn_grey}`}
-              onClick={this.clickHandler}
-            >
-              +/-
-            </button>
-            <button
-              className={`${classes.btn} ${classes.btn_grey}`}
-              onClick={this.clickHandler}
-            >
-              %
-            </button>
-            <button
-              className={`${classes.btn} ${classes.btn_orange}`}
+            <Button onClick={this.clickHandler}>AC</Button>
+            <Button onClick={this.clickHandler}>+/-</Button>
+            <Button onClick={this.clickHandler}>%</Button>
+            <Button
+              className={` ${classes.btn_orange}`}
               onClick={this.clickHandler}
             >
               +
-            </button>
+            </Button>
           </div>
           <div className={classes.row}>
-            <button
-              className={`${classes.btn} ${classes.btn_grey}`}
-              onClick={this.clickHandler}
-            >
-              7
-            </button>
-            <button
-              className={`${classes.btn} ${classes.btn_grey}`}
-              onClick={this.clickHandler}
-            >
-              8
-            </button>
-            <button
-              className={`${classes.btn} ${classes.btn_grey}`}
-              onClick={this.clickHandler}
-            >
-              9
-            </button>
-            <div
+            <Button onClick={this.clickHandler}>7</Button>
+            <Button onClick={this.clickHandler}>8</Button>
+            <Button onClick={this.clickHandler}>9</Button>
+            <Button
               className={`${classes.btn} ${classes.btn_orange}`}
               onClick={this.clickHandler}
             >
               x
-            </div>
+            </Button>
           </div>
           <div className={classes.row}>
-            <button
-              className={`${classes.btn} ${classes.btn_grey}`}
-              onClick={this.clickHandler}
-            >
-              4
-            </button>
-            <button
-              className={`${classes.btn} ${classes.btn_grey}`}
-              onClick={this.clickHandler}
-            >
-              5
-            </button>
-            <button
-              className={`${classes.btn} ${classes.btn_grey}`}
-              onClick={this.clickHandler}
-            >
-              6
-            </button>
-            <button
+            <Button onClick={this.clickHandler}>4</Button>
+            <Button onClick={this.clickHandler}>5</Button>
+            <Button onClick={this.clickHandler}>6</Button>
+            <Button
               className={`${classes.btn} ${classes.btn_orange}`}
               onClick={this.clickHandler}
             >
               -
-            </button>
+            </Button>
           </div>
           <div className={classes.row}>
-            <button
-              className={`${classes.btn} ${classes.btn_grey}`}
-              onClick={this.clickHandler}
-            >
-              1
-            </button>
-            <button
-              className={`${classes.btn} ${classes.btn_grey}`}
-              onClick={this.clickHandler}
-            >
-              2
-            </button>
-            <button
-              className={`${classes.btn} ${classes.btn_grey}`}
-              onClick={this.clickHandler}
-            >
-              3
-            </button>
-            <button
-              className={`${classes.btn} ${classes.btn_orange}`}
+            <Button onClick={this.clickHandler}>1</Button>
+            <Button onClick={this.clickHandler}>2</Button>
+            <Button onClick={this.clickHandler}>3</Button>
+            <Button
+              className={` ${classes.btn_orange}`}
               onClick={this.clickHandler}
             >
               ÷
-            </button>
+            </Button>
           </div>
           <div className={classes.row}>
-            <button
-              className={`${classes.btn} ${classes.btn_0} ${classes.btn_grey}`}
-              onClick={this.clickHandler}
-            >
+            <Button className={classes.btn_0} onClick={this.clickHandler}>
               0
-            </button>
-            <button
-              className={`${classes.btn} ${classes.btn_grey}`}
-              onClick={this.clickHandler}
-            >
-              .
-            </button>
-            <button
-              className={`${classes.btn} ${classes.btn_orange}`}
+            </Button>
+            <Button onClick={this.clickHandler}>.</Button>
+            <Button
+              className={`${classes.btn_orange}`}
               onClick={this.clickHandler}
             >
               =
-            </button>
+            </Button>
           </div>
         </div>
       </div>
