@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Component } from 'react';
 import classes from './Calculate.module.css';
 import calculate from '../../logic/calculate.js';
