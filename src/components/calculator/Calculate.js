@@ -8,6 +8,7 @@ class Calculate extends Component {
     this.props = props;
     this.state = {};
     this.clickHandler = this.clickHandler.bind(this);
+    console.log(this);
   }
 
   clickHandler(e) {
@@ -15,11 +16,13 @@ class Calculate extends Component {
   }
 
   render() {
-    const { next, total } = this.state;
+    const { next, total, operation } = this.state;
+    console.log(next, total, operation);
+    console.log(this.clickHandler);
     return (
       <div className={this.props.className}>
         <div className={classes.calculator}>
-          <div className={classes.row1}>{next || total || 0}</div>
+          <div className={classes.row1}>{next || total || operation || 0}</div>
           <div className={classes.row}>
             <div
               className={`${classes.btn} ${classes.btn_grey}`}
