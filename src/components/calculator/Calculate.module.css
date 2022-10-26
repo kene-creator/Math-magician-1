@@ -1,0 +1,42 @@
+.containers {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 46rem;
+}
+
+.row1 {
+  display: flex;
+  height: 7rem;
+  align-items: center;
+  background-color: #858694;
+  padding: 1rem;
+  width: 100%;
+  justify-content: flex-end;
+  font-size: 3rem;
+  color: #fff;
+  padding-right: 2rem;
+}
+
+.row {
+  display: flex;
+  height: 6rem;
+  justify-content: space-between;
+}
+
+.btn_0 {
+  width: 50% !important;
+}
+
+.btn_orange {
+  background-color: #f5913e !important;
+}
+
+.btn_orange:hover {
+  background-color: #f5903e84 !important;
+}
