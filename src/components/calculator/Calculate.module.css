@@ -43,6 +43,7 @@
 .btn_grey {
   background-color: rgb(208, 208, 208);
 }
+
 .btn_grey:hover {
   background-color: rgba(208, 208, 208, 0.533);
 }
@@ -50,6 +51,7 @@
 .btn_orange {
   background-color: #f5913e;
 }
+
 .btn_orange:hover {
   background-color: #f5903e84;
 }
