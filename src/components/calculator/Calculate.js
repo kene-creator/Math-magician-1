@@ -16,54 +16,55 @@ class Calculate extends Component {
 
   render() {
     const { next, total, operation } = this.state;
+    return (
       <div className={this.props.className}>
         <div className={classes.calculator}>
           <div className={classes.row1}>{next || total || operation || 0}</div>
           <div className={classes.row}>
-            <div
+            <button
               className={`${classes.btn} ${classes.btn_grey}`}
               onClick={this.clickHandler}
             >
               AC
-            </div>
-            <div
+            </button>
+            <button
               className={`${classes.btn} ${classes.btn_grey}`}
               onClick={this.clickHandler}
             >
               +/-
-            </div>
-            <div
+            </button>
+            <button
               className={`${classes.btn} ${classes.btn_grey}`}
               onClick={this.clickHandler}
             >
               %
-            </div>
-            <div
+            </button>
+            <button
               className={`${classes.btn} ${classes.btn_orange}`}
               onClick={this.clickHandler}
             >
               +
-            </div>
+            </button>
           </div>
           <div className={classes.row}>
-            <div
+            <button
               className={`${classes.btn} ${classes.btn_grey}`}
               onClick={this.clickHandler}
             >
               7
-            </div>
-            <div
+            </button>
+            <button
               className={`${classes.btn} ${classes.btn_grey}`}
               onClick={this.clickHandler}
             >
               8
-            </div>
-            <div
+            </button>
+            <button
               className={`${classes.btn} ${classes.btn_grey}`}
               onClick={this.clickHandler}
             >
               9
-            </div>
+            </button>
             <div
               className={`${classes.btn} ${classes.btn_orange}`}
               onClick={this.clickHandler}
@@ -72,76 +73,76 @@ class Calculate extends Component {
             </div>
           </div>
           <div className={classes.row}>
-            <div
+            <button
               className={`${classes.btn} ${classes.btn_grey}`}
               onClick={this.clickHandler}
             >
               4
-            </div>
-            <div
+            </button>
+            <button
               className={`${classes.btn} ${classes.btn_grey}`}
               onClick={this.clickHandler}
             >
               5
-            </div>
-            <div
+            </button>
+            <button
               className={`${classes.btn} ${classes.btn_grey}`}
               onClick={this.clickHandler}
             >
               6
-            </div>
-            <div
+            </button>
+            <button
               className={`${classes.btn} ${classes.btn_orange}`}
               onClick={this.clickHandler}
             >
               -
-            </div>
+            </button>
           </div>
           <div className={classes.row}>
-            <div
+            <button
               className={`${classes.btn} ${classes.btn_grey}`}
               onClick={this.clickHandler}
             >
               1
-            </div>
-            <div
+            </button>
+            <button
               className={`${classes.btn} ${classes.btn_grey}`}
               onClick={this.clickHandler}
             >
               2
-            </div>
-            <div
+            </button>
+            <button
               className={`${classes.btn} ${classes.btn_grey}`}
               onClick={this.clickHandler}
             >
               3
-            </div>
-            <div
+            </button>
+            <button
               className={`${classes.btn} ${classes.btn_orange}`}
               onClick={this.clickHandler}
             >
               ÷
-            </div>
+            </button>
           </div>
           <div className={classes.row}>
-            <div
+            <button
               className={`${classes.btn} ${classes.btn_0} ${classes.btn_grey}`}
               onClick={this.clickHandler}
             >
               0
-            </div>
-            <div
+            </button>
+            <button
               className={`${classes.btn} ${classes.btn_grey}`}
               onClick={this.clickHandler}
             >
               .
-            </div>
-            <div
+            </button>
+            <button
               className={`${classes.btn} ${classes.btn_orange}`}
               onClick={this.clickHandler}
             >
               =
-            </div>
+            </button>
           </div>
         </div>
       </div>
