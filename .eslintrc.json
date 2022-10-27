@@ -11,6 +11,7 @@
   },
   "extends": ["airbnb-base"],
   "rules": {
+    "eslint comma-dangle": ["error", "never"],
     "class-methods-use-this": [
       "error",
       {
