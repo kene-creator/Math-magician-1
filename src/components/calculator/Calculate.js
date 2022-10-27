@@ -30,7 +30,7 @@ const Calculate = (props) => {
         <div className={classes.row}>
           <Button onClick={clickHandler}>7</Button>
           <Button onClick={clickHandler}>8</Button>
-          <Button onClick={props.clickHandler}>9</Button>
+          <Button onClick={clickHandler}>9</Button>
           <Button
             className={`${classes.btn} ${classes.btn_orange}`}
             onClick={clickHandler}
