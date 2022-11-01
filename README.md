@@ -8,6 +8,10 @@
 
 - React
 
+## Live Link
+
+[Live](https://reliable-cendol-d7cb75.netlify.app/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
