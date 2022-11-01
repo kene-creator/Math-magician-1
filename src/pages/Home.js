@@ -1,8 +1,7 @@
-import React from 'react';
 import classes from './Home.module.css';
 
 const Home = () => (
-  <React.Fragment>
+  <>
     <h1 className={classes.home_header}>Welcome to our page</h1>
     <p className={classes.home_body}>
       Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -13,7 +12,7 @@ const Home = () => (
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </p>
-  </React.Fragment>
+  </>
 );
 
 export default Home;
