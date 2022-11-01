@@ -5,6 +5,7 @@ import { Component } from 'react';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Naviagtion from './components/UI/Navigation.js';
+import Home from './pages/Home.js';
 
 class App extends Component {
   render() {
@@ -12,8 +13,9 @@ class App extends Component {
       <React.Fragment>
         <Naviagtion />
         <Routes>
+          <Route path="/" element={<Home />}></Route>
           <Route
-            path="/"
+            path="/calculator"
             element={<Calculate className={classes.containers} />}
           ></Route>
         </Routes>

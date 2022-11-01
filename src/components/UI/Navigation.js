@@ -13,8 +13,8 @@ const Naviagtion = () => {
           </Link>
         </li>
         <li>
-          <Link to="/about" className={classes.link}>
-            About
+          <Link to="/calculator" className={classes.link}>
+            Calculator
           </Link>
         </li>
         <li>
