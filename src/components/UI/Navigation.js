@@ -1,5 +1,4 @@
 /* eslint no-unused-vars: ["error", { "varsIgnorePattern": "Link" }] */
-
 import { Link } from 'react-router-dom';
 import classes from './Navigation.module.css';
 
