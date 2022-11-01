@@ -6,6 +6,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Naviagtion from './components/UI/Navigation.js';
 import Home from './pages/Home.js';
+import Qoute from './pages/Qoute.js';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
             path="/calculator"
             element={<Calculate className={classes.containers} />}
           ></Route>
+          <Route path="/qoute" element={<Qoute />}></Route>
         </Routes>
       </React.Fragment>
     );

@@ -1,7 +1,7 @@
 .containers {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .calculator {
@@ -39,4 +39,10 @@
 
 .btn_orange:hover {
   background-color: #f5903e84 !important;
+}
+
+.calculate_header {
+  font-size: 3rem;
+  color: #121212;
+  margin: 4rem 0 0 5rem;
 }

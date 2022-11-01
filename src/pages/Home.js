@@ -3,7 +3,7 @@ import classes from './Home.module.css';
 
 const Home = () => (
   <React.Fragment>
-    <h1 className={classes.home_header}>Math Magicians</h1>
+    <h1 className={classes.home_header}>Welcome to our page</h1>
     <p className={classes.home_body}>
       Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

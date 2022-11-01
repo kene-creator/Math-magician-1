@@ -1,11 +1,13 @@
-import React from 'react';
+/* eslint-disable */
 import { Link } from 'react-router-dom';
 import classes from './Navigation.module.css';
 
-/* eslint-disable */
 const Naviagtion = () => {
   return (
     <nav className={classes.nav}>
+      <Link to="/" className={classes.nav_header}>
+        Math Magician
+      </Link>
       <ul className={classes.link_items}>
         <li>
           <Link to="/" className={classes.link}>
