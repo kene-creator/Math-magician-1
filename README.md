@@ -10,7 +10,7 @@
 
 ## Live Link
 
-[Live](https://reliable-cendol-d7cb75.netlify.app/qoute)
+[Live](https://reliable-cendol-d7cb75.netlify.app/)
 
 ## Getting Started
 
