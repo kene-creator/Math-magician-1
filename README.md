@@ -8,7 +8,8 @@
 
 - React
 
-##Live Link
+## Live Link
+
 [Live](https://reliable-cendol-d7cb75.netlify.app/qoute)
 
 ## Getting Started
